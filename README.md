@@ -1,3 +1,5 @@
+This is a modified copy of Apple's sample code. It's not intended as a reference for others (it doesn't work right) rather as reference for a Stack Overflow [question](https://stackoverflow.com/q/75455845/344733) I asked trying to solve a problem with installing a DriverKit driver on iPadOS. Original README below:
+
 # Communicating Between a DriverKit Extension and a Client App
 
 Send and receive different kinds of data securely by validating inputs and asynchronously by storing and using a callback.
