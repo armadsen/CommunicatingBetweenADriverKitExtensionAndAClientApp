@@ -6,8 +6,15 @@ The view model that indicates the state of driver loading.
 */
 
 import Foundation
-import SystemExtensions
 import os.log
+
+#if canImport(SystemExtensions)
+import SystemExtensions
+#endif
+
+#if canImport(UIKit)
+import UIKit
+#endif
 
 class DriverLoadingStateMachine {
 
@@ -97,6 +104,8 @@ extension DriverLoadingViewModel: ObservableObject {
 
 }
 
+#if os(macOS)
+
 extension DriverLoadingViewModel {
 
     func activateMyDext() {
@@ -180,3 +189,14 @@ extension DriverLoadingViewModel: OSSystemExtensionRequestDelegate {
         self.state = DriverLoadingStateMachine.process(self.state, .activationFailed)
     }
 }
+
+#else // os(macOS)
+
+extension DriverLoadingViewModel {
+
+    func activateMyDext() {
+        
+    }
+}
+
+#endif
