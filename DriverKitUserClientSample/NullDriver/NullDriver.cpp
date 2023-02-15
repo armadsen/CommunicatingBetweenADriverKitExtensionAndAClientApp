@@ -175,6 +175,13 @@ kern_return_t IMPL(NullDriver, Start)
         Log("Start() - Failed to assign simulated action to handler with error: 0x%08x.", ret);
         goto Exit;
     }
+    
+    ret = SetName("NullDriver");
+    if (ret != kIOReturnSuccess)
+    {
+        Log("Start() - Failed to set service name with error: 0x%08x.", ret);
+        goto Exit;
+    }
 
     ret = RegisterService();
     if (ret != kIOReturnSuccess)
