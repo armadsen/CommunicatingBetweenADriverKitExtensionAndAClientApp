@@ -20,6 +20,7 @@
 		62A475692515567200B50752 /* NullDriver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62A475682515567200B50752 /* NullDriver.cpp */; };
 		62A4756B2515567200B50752 /* NullDriver.iig in Sources */ = {isa = PBXBuildFile; fileRef = 62A4756A2515567200B50752 /* NullDriver.iig */; };
 		62A475702515567200B50752 /* com.openreelsoftware.dext-to-user-client.driver.dext in Embed System Extensions */ = {isa = PBXBuildFile; fileRef = 62A475632515567200B50752 /* com.openreelsoftware.dext-to-user-client.driver.dext */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9D272016299D9C6B00380C96 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9D272015299D9C6B00380C96 /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		62A4756C2515567200B50752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62A4756D2515567200B50752 /* NullDriver.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NullDriver.entitlements; sourceTree = "<group>"; };
 		9175AE33DAFC6077E136FC22 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9D272015299D9C6B00380C96 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		E2E30052AEB1AEE49EC73B0E /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		F32C00003CD45082E71156D7 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = ../Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -154,6 +156,7 @@
 				62A475592515566600B50752 /* Info.plist */,
 				62A4755A2515566600B50752 /* DriverKitSampleApp.entitlements */,
 				62A475562515566600B50752 /* Preview Content */,
+				9D272015299D9C6B00380C96 /* Settings.bundle */,
 			);
 			path = DriverKitSampleApp;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D272016299D9C6B00380C96 /* Settings.bundle in Resources */,
 				627CF0CA2538C394009E1911 /* LICENSE.txt in Resources */,
 				62A475582515566600B50752 /* Preview Assets.xcassets in Resources */,
 				62A475552515566600B50752 /* Assets.xcassets in Resources */,
