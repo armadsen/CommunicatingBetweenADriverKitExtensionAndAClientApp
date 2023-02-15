@@ -562,6 +562,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"DriverKitSampleApp/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 2CX7W99FJ9;
 				"DEVELOPMENT_TEAM[sdk=macosx*]" = 2CX7W99FJ9;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -574,8 +575,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.openreelsoftware.dext-to-user-client";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "DriverKitSampleApp iOS Provisioning Profile";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "DriverKitSampleApp Mac Provisioning Profile";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -591,6 +597,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"DriverKitSampleApp/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 2CX7W99FJ9;
 				"DEVELOPMENT_TEAM[sdk=macosx*]" = 2CX7W99FJ9;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -603,8 +610,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.openreelsoftware.dext-to-user-client";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "DriverKitSampleApp iOS Provisioning Profile";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "DriverKitSampleApp Mac Provisioning Profile";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
